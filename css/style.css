@@ -1,0 +1,242 @@
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: Arial;
+}
+
+form {
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    border: 1px solid #f8fbfc;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.blog-title {
+    color: #FFA500; 
+    font-weight: bold; 
+    margin-right: 20px; 
+}
+
+h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.input {
+    height: 45px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-left: 30px;
+    border: 1px solid #f0f3f6;
+    border-radius: 10px;
+}
+
+.submit {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid rgb(240, 242, 243);
+    border-radius: 10px;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    outline: none;
+}
+
+p {
+    color: #ffffff;
+}
+
+#crimes {
+    height: 40px;
+    text-align: center;
+    padding-top: 0px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 40px;
+}
+
+#d2 {
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#d2 .pdiv {
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#d4 {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+    transition: color 0.3s ease;
+    direction: rtl;
+}
+
+#d2 a.active {
+    color: rgb(111, 185, 93);
+}
+
+.copy {
+    color: silver;
+}
+
+textarea.input {
+    padding: 15px;
+    border: 1px solid #f0f3f6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    resize: vertical;
+}
+
+.contenthome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.columnhome {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.columnhome img {
+    border: 4px solid #fff;
+    max-width: 70%; 
+    height: auto;
+    margin-bottom: 20px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.columnhome a {
+    color: #ddd;
+    transition: color 0.3s ease;
+}
+
+.search-icon {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.columnhome a:hover {
+    color: #fff;
+}
+
+.news-row {
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    margin: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    direction: rtl;
+}
+
+.news-title {
+    flex: 1;
+    text-align: right;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.news-text {
+    flex: 2;
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.comments p {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.add-comment {
+    width: 50%;  
+    margin: 20px auto;  
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#commentField {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
